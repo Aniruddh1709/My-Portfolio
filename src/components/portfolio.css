@@ -1,0 +1,54 @@
+
+
+.carousel-item{
+    text-align: center;
+}
+
+.d-block{
+    height: 90vh;
+    background: transparent;
+    
+}
+
+.project{
+    height: 80%;
+    width: 60%;
+    background: transparent !important;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 853px) {
+    .d-block{
+        height: 70vh;
+        
+    }
+    .project{
+        height: 60%;
+        width: 60%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .d-block{
+        height: 50vh;
+        
+    }
+    .project{
+        height: 60%;
+        width: 60%;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .d-block{
+        height: 40vh;
+        
+    }
+    .project{
+        height: 50%;
+        width: 60%;
+    }
+  }
+
+
